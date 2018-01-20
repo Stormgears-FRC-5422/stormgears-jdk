@@ -1,0 +1,3 @@
+export JAVA_HOME=/usr/stormgears/jdk1.8.0_161
+export PATH=$JAVA_HOME/bin:$PATH
+

@@ -1,0 +1,11 @@
+PKG=stormgears-jdk
+
+all:
+	echo Installing pre-built package from tarball
+
+install:
+	mkdir -p $(DESTDIR)/usr/stormgears
+	tar -C $(DESTDIR)/usr/stormgears -xzf jdk.tar.gz
+	mkdir -p $(DESTDIR)/etc/profile.d
+	cp profile.pkg $(DESTDIR)/etc/profile.d/$(PKG).sh
+

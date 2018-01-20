@@ -1,0 +1,15 @@
+Source: stormgears-jdk
+Section: devel
+Priority: optional
+Maintainer: Mark Smith <marksmith@unknown>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://www.java.com
+#Vcs-Git: git://anonscm.debian.org/collab-maint/stormgears-jdk.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/stormgears-jdk.git
+
+Package: stormgears-jdk
+Architecture: any
+Depends: ${misc:Depends}
+Description: Stormgears FRC 5422 package for JDK
+ Stormgears FRC 5422 package for JDK
