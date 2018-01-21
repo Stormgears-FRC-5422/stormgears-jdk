@@ -25,3 +25,6 @@
 
 override_dh_strip_nondeterminism:
 	echo skipping dh_strip_nondeterminism for pre-built package
+
+override_dh_shlibdeps:
+	echo skipping dh_shlibdeps for pre-built package

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PKG=stormgears-jdk
-PKGVER=1.8.0
+PKGVER=1.8.0.1
 PKGREL=161.1
 
 . /etc/os-release
